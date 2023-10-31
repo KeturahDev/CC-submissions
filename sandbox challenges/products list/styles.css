@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  min-height: 370px px;
+  width: 350px;
+}
+
+.cardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 8px;
+  gap: 8px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.cardImg {
+  max-height: 190px;
+}
